@@ -1,0 +1,7 @@
+answer = input('hello, would you like to know how many people are in space right now? (yes/no) ')
+if answer.lower() in ['yes', 'y', 'Yes', 'Y']:
+    print('The current number of people in space is x')
+elif answer.lower() in ['no', 'n', 'No', 'N']:
+    print('Okay, have a great day!')
+else:
+    print('Invalid input')
